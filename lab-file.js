@@ -39,10 +39,34 @@ console.log(make);
 console.log(model);
 
 //Exercise 4
-// Duplicate the following array using the spread operator and assign it to `controversialPizzaToppings`. Then, log the variable.
-
+// Duplicate the pizzaToppings array using the spread operator and assign it to `controversialPizzaToppings`. Then, log the variable.
 // Your code here
 
 const controversialPizzaToppings = [...pizzaToppings];
 
 console.log(controversialPizzaToppings);
+
+//Exercise 5
+// Duplicate the car object and spread its values into a new variable `myCar`.
+  // Change the `model` property of `myCar` to 'q7'. Log both objects.
+  // Your code here
+
+const myCar = {...car};
+
+myCar.model = 'q7';
+
+console.log(car);
+console.log(myCar);
+
+//Exercise 6
+// Create an object named userProfile.
+// Define a variable named propertyName and assign a string to it (like a username, age, or email).
+// Use propertyName as a dynamic key in userProfile, assigning a relevant value.
+// Your code here
+
+const userProfile = {};
+const propertyName = 'username';
+
+userProfile[propertyName] = 'pastafartian'
+
+console.log(userProfile);
