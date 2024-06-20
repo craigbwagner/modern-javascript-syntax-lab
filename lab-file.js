@@ -37,3 +37,12 @@ const {make, model} = car;
 
 console.log(make);
 console.log(model);
+
+//Exercise 4
+// Duplicate the following array using the spread operator and assign it to `controversialPizzaToppings`. Then, log the variable.
+
+// Your code here
+
+const controversialPizzaToppings = [...pizzaToppings];
+
+console.log(controversialPizzaToppings);
