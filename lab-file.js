@@ -70,3 +70,5 @@ const propertyName = 'username';
 userProfile[propertyName] = 'pastafartian'
 
 console.log(userProfile);
+
+//Exercise 7
